@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,h2 {
+    text-align: center;
+  }
+  
+  #photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .photo {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  #addPhotoBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #addPhotoBtn:hover {
+    background-color: #45a049;
+  }
+  
+  #addPhotoBtn:active {
+    background-color: #3e8e41;
+  }
